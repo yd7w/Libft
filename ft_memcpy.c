@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_memcpy.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2025/01/15 21:47:21 by marvin            #+#    #+#             */
+/*   Updated: 2025/01/15 21:47:21 by marvin           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "Libft.h"
 
 void *ft_memcpy(void *dest, const void *src, size_t n)
@@ -7,9 +19,9 @@ void *ft_memcpy(void *dest, const void *src, size_t n)
     size_t i;
 
     i = 0;
-    dest1 = dest;
-    src1 = src;
-    if (!src1 && !dest1)
+    dest1 = (char *)dest;
+    src1 = (const char *)src;
+    if (!src1 || !dest1)
         return (NULL);
     while (i < n && (src1 != '\0') && (src1 != dest1))
     {
