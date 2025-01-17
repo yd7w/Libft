@@ -31,3 +31,5 @@ size_t ft_strlcat(char *dest, const char *src, size_t destsize);
 char* ft_strrchr(char* str, int chr);
 void *ft_memchr(const void *str, int chr, size_t n);
 int memcmp(const void *s1, const void *s2, size_t n);
+int ft_atoi(const char *str);
+char *ft_strnstr(const char *str, const char *needle, size_t n);
