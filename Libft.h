@@ -38,5 +38,7 @@ int ft_atoi(const char *str);
 char *ft_strnstr(const char *str, const char *needle, size_t n);
 void    *ft_calloc(size_t n, size_t nsize);
 char *ft_strdup(const char *str);
+char *ft_substr(char const *s, unsigned int start, size_t len);
+char *ft_strjoin(char const *s1, char const *s2);
 
 #endif
