@@ -12,15 +12,15 @@
 
 #include "Libft.h"
 
-void    *ft_calloc(size_t n, size_t nsize)
+void	*ft_calloc(size_t n, size_t nsize)
 {
-    void *p;
+	void	*p;
 
-    if (n != 0 && (nsize > (SIZE_MAX / n)))
-        return (NULL);
-    p = (void*)malloc(n * nsize);
-    if (!p)
-        return (NULL);
-    ft_memset(p, 0, (n*nsize));
-    return (p);
+	if (n != 0 && (nsize > (SIZE_MAX / n)))
+		return (NULL);
+	p = (void *)malloc(n * nsize);
+	if (!p)
+		return (NULL);
+	ft_memset(p, 0, (n * nsize));
+	return (p);
 }
