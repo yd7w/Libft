@@ -23,5 +23,5 @@ char	*ft_strrchr(char *str, int chr)
 			return (&str[strleng]);
 		strleng--;
 	}
-	return (0);
+	return (NULL);
 }
