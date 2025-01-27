@@ -11,8 +11,6 @@
 /* ************************************************************************** */
 
 #include "Libft.h"
-#include <stdio.h>
-#include <stdlib.h>
 
 static void	addwords(char **splitted, char const *s, char c, size_t strnum)
 {
