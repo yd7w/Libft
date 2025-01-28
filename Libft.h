@@ -14,6 +14,7 @@
 # define LIBFT_H
 # include <stdint.h>
 # include <stdlib.h>
+# include <unistd.h>
 
 void	*ft_memset(void *s1, int c, size_t n);
 int		ft_isalnum(int a);
