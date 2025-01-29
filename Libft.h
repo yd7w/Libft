@@ -15,6 +15,7 @@
 # include <stdint.h>
 # include <stdlib.h>
 # include <unistd.h>
+# include <limits.h>
 
 void	*ft_memset(void *s1, int c, size_t n);
 int		ft_isalnum(int a);
@@ -47,5 +48,6 @@ char	*ft_itoa(int n);
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char));
 void	ft_striteri(char *s, void (*f)(unsigned int, char*));
 void	ft_putchar_fd(char c, int fd);
+void	ft_putnbr_fd(int n, int fd);
 
 #endif
