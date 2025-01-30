@@ -12,11 +12,11 @@ SRC = ft_atoi.c ft_bzero.c ft_calloc.c ft_isalnum.c ft_isalpha.c \
 
 OBJ = $(SRC:.c=.o)
 
-Done = libft.a
+NAME = libft.a
 
-all : $(Done)
+all : $(NAME)
 
-$(Done) : $(OBJ)
+$(NAME) : $(OBJ)
 	ar rcs $@ $^
 
 %.o : %.c
@@ -26,7 +26,7 @@ clean :
 	rm -rf $(OBJ)
 
 fclean : clean
-	rm -rf $(Done)
+	rm -rf $(NAME)
 
 re : fclean all
 
