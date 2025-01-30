@@ -28,7 +28,7 @@ int		ft_strncmp(const char *str1, const char *str2, size_t m);
 int		ft_tolower(int a);
 int		ft_toupper(int c);
 void	ft_bzero(void *s, size_t n);
-void	*ft_memcpy(void *dest, const void *src, size_t n);
+
 void	*ft_memmove(void *dest, const void *src, size_t n);
 size_t	ft_strlcpy(char *dest, const char *src, size_t dstsize);
 size_t	ft_strlcat(char *dest, const char *src, size_t destsize);
@@ -55,5 +55,7 @@ typedef struct s_list
 	void			*content;
 	struct s_list	*next;
 }					t_list;
+t_list	*ft_lstnew(void *content);
+void	ft_lstadd_front(t_list **lst, t_list *new);
 
 #endif
