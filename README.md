@@ -1,3 +1,7 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Build Status](https://travis-ci.com/yourusername/libft.svg?branch=master)](https://travis-ci.com/yd7w/Libft)
+[![Codestyle: 42header](https://img.shields.io/badge/42header-compliant-brightgreen.svg)](https://github.com/42header/42header)
+
 <div align="center">
   <img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons/lib.svg" alt="libft" width="100" />
 
